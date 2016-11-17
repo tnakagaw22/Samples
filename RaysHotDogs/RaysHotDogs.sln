@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs.Core", "RaysHotDogs.Core\RaysHotDogs.Core.csproj", "{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs", "RaysHotDogs\RaysHotDogs.csproj", "{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5372B6E-1B36-4296-BAAC-23FFDC4A7927}.Release|x86.Build.0 = Release|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Debug|x86.Build.0 = Debug|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Release|x86.ActiveCfg = Release|x86
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Release|x86.Build.0 = Release|x86
+		{F24E183A-FFF0-4420-BF1D-4DC2AF19B275}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

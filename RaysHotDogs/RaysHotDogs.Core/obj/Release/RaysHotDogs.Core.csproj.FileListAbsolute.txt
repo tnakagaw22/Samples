@@ -1,0 +1,8 @@
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\bin\Release\RaysHotDogs.Core.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\bin\Release\RaysHotDogs.Core.pdb
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\obj\Release\RaysHotDogs.Core.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\obj\Release\RaysHotDogs.Core.pdb
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\obj\Release\RaysHotDogs.Core.dll.mdb
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\bin\Release\RaysHotDogs.Core.dll.mdb
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\obj\Release\RaysHotDogs.Core.dll.mdb
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\bin\Release\RaysHotDogs.Core.dll.mdb

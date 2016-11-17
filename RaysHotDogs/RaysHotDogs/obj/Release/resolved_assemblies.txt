@@ -1,0 +1,10 @@
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\RaysHotDogs.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\Java.Interop.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\Mono.Android.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\mscorlib.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\System.Core.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\System.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\System.Xml.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\RaysHotDogs.Core.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Release\android\assets\System.ServiceModel.Internals.dll

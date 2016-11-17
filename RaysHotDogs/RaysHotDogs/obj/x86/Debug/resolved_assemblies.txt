@@ -1,0 +1,13 @@
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\RaysHotDogs.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\Java.Interop.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\Mono.Android.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\mscorlib.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.Core.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.Xml.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\RaysHotDogs.Core.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\x86\Debug\android\assets\System.Net.Http.dll
