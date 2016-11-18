@@ -20,3 +20,23 @@ C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.
 C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
 C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
 C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb

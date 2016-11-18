@@ -89,6 +89,9 @@
     <AndroidResource Include="Resources\layout\HotDogMenuView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\HotDogRowView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\HotDogDetailView.axml">

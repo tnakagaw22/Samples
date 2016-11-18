@@ -42,4 +42,49 @@ C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\
 C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogmenuview.xml
 C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll.mdb
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.csprojResolveAssemblyReference.cache
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.pdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.pdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.RaysHotDogs.apk
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.RaysHotDogs-Signed.apk
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.pdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\bin\RaysHotDogs.RaysHotDogs.apk
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogmenuview.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogdetailview.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\main.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\values\strings.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\icon.png
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\R.cs.flag
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\uploadflags.txt
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\Java.Interop.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\Mono.Android.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\mscorlib.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.ComponentModel.Composition.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.Net.Http.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.Xml.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.Xml.Linq.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\Java.Interop.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\Mono.Android.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\mscorlib.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\RaysHotDogs.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\RaysHotDogs.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Core.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Net.Http.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogrowview.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb

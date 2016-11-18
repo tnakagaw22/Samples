@@ -28,7 +28,7 @@ namespace RaysHotDogs
 
             SetContentView(Resource.Layout.HotDogMenuView);
 
-            hotDogListView = FindViewById<ListView>(Resource.Id.hotDogListView;)
+            hotDogListView = FindViewById<ListView>(Resource.Id.hotDogListView);
 
             hotDogDataService = new HotDogDataService();
 

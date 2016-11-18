@@ -1,24 +1,24 @@
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\RaysHotDogs.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\Java.Interop.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\Mono.Android.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\mscorlib.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Core.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\RaysHotDogs.Core.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Threading.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Collections.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Reflection.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Linq.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.Serialization.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Net.Http.dll
-C:\Users\tomohiro\Documents\Visual Studio 2015\Projects\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\RaysHotDogs.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\Java.Interop.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\Mono.Android.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\mscorlib.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Core.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\RaysHotDogs.Core.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Threading.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Collections.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Collections.Concurrent.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Reflection.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Linq.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.Extensions.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Reflection.Extensions.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.Serialization.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Net.Http.dll
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Resources.ResourceManager.dll
