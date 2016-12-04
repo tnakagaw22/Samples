@@ -51,7 +51,6 @@ D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.RaysHotDog
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.RaysHotDogs-Signed.apk
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.dll
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.pdb
-D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\bin\RaysHotDogs.RaysHotDogs.apk
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogmenuview.xml
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogdetailview.xml
@@ -60,10 +59,15 @@ D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\values\strings.xml
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\icon.png
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\R.cs.flag
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\uploadflags.txt
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogrowview.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\mainmenu.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\raylogo.jpg
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\aboutview.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\Java.Interop.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\Mono.Android.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\mscorlib.dll.mdb
-D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.ComponentModel.Composition.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.Core.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\System.dll.mdb
@@ -85,6 +89,11 @@ D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogrowview.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\favoritehotdogfragment.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\meatloversfragment.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\veggieloversfragment.xml
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\meatloversicon.png
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\vegieloversicon.jpg
+D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\favoritesicon.png
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll.mdb
 D:\Repositories\Samples\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb

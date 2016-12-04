@@ -8,23 +8,52 @@ using Android.OS;
 
 namespace RaysHotDogs
 {
-    [Activity(Label = "RaysHotDogs", MainLauncher = false, Icon = "@drawable/icon")]
+    [Activity(Label = "RaysHotDogs", MainLauncher = true)]
     public class MainActivity : Activity
     {
-        int count = 1;
+        private Button orderButton;
+        private Button cartButton;
+        private Button aboutButton;
+        private Button mapButton;
+        private Button takePictureButton;
 
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle savedInstancesState)
         {
-            base.OnCreate(bundle);
+            base.OnCreate(savedInstancesState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.MainMenu);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            FindViews();
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            HandleEvents();
+        }
+
+        private void FindViews()
+        {
+            orderButton = FindViewById<Button>(Resource.Id.orderButton);
+            cartButton = FindViewById<Button>(Resource.Id.cartButton);
+            aboutButton = FindViewById<Button>(Resource.Id.aboutButton);
+            mapButton = FindViewById<Button>(Resource.Id.mapButton);
+            takePictureButton = FindViewById<Button>(Resource.Id.takePictureButton);
+        }
+
+        private void HandleEvents()
+        {
+            orderButton.Click += OrderButton_Click;
+            aboutButton.Click += AboutButton_Click;
+        }
+
+        private void AboutButton_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(AboutActivity));
+            StartActivity(intent);
+        }
+
+        private void OrderButton_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(HotDogMenuActivity));
+            StartActivity(intent);
         }
     }
 }
