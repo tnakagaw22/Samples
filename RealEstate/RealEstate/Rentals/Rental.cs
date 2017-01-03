@@ -17,5 +17,17 @@ namespace RealEstate.Rentals
         [BsonRepresentation(BsonType.Double)]
         public decimal Price { get; set; }
 
+        public Rental()
+        {
+
+        }
+
+        public Rental(PostRental postRental)
+        {
+            Description = postRental.Description;
+            NumberOfRooms = postRental.NumberOfRooms;
+            Price = postRental.Price;
+            Address = (postRental.Address ?? String.Empty).Split('\n').ToList();
+        }
     }
 }
