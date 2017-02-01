@@ -1,0 +1,17 @@
+1. Create your DbContext class
+
+2. Enable migrations. This will create "Migrations" folder with "Configuration.cs" file
+	enable-migrations
+
+3. When you update a model, createa migration class in "Migrations" folder. xxx is a migration name.
+	add-migration xxx
+
+4. Apply migration class into your database.
+	By "-script", it will create a SQL script so that DBA can run it
+	update-database -script
+
+	By "-verbose", package manager console prints which scripts were run.
+	update-database -verbose
+
+5. Rollback migration.
+	update-database -TargetMigration:"AddedRequiredOnTitle"
