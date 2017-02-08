@@ -64,17 +64,22 @@ namespace MyCodeCamp.Controllers
 
         // POST api/values
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]Camp model)
+        public async Task<IActionResult> Post([FromBody]CampModel model)
         {
             try
             {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+
                 _logger.LogInformation("Creating a new Code Camp");
 
-                _repo.Add(model);
+                var camp = _mapper.Map<Camp>(model);
+
+                _repo.Add(camp);
                 if (await _repo.SaveAllAsync())
                 {
-                    var newUri = Url.Link("CampGet", new { id = model.Id });
-                    return Created(newUri, model);
+                    var newUri = Url.Link("CampGet", new { moniker = camp.Moniker });
+                    return Created(newUri, _mapper.Map<CampModel>(camp));
                 }
                 else
                 {
@@ -90,25 +95,23 @@ namespace MyCodeCamp.Controllers
         }
 
         // PUT api/values/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody]Camp model)
+        [HttpPut("{moniker}")]
+        public async Task<IActionResult> Put(string moniker, [FromBody]CampModel model)
         {
             try
             {
-                var oldCamp = _repo.GetCamp(id);
-                if (oldCamp == null)
-                    return NotFound($"Could not find a camp with an ID of {id}");
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
 
-                // Map model to the oldCamp
-                oldCamp.Name = model.Name ?? oldCamp.Name;
-                oldCamp.Description = model.Description ?? oldCamp.Description;
-                oldCamp.Location = model.Location ?? oldCamp.Location;
-                oldCamp.Length = model.Length > 0 ? model.Length : oldCamp.Length;
-                oldCamp.EventDate = model.EventDate != DateTime.MinValue ? model.EventDate : oldCamp.EventDate;
+                var oldCamp = _repo.GetCampByMoniker(moniker);
+                if (oldCamp == null)
+                    return NotFound($"Could not find a camp with an moniker of {moniker}");
+
+                _mapper.Map(model, oldCamp);
 
                 if (await _repo.SaveAllAsync())
                 {
-                    return Ok(oldCamp);
+                    return Ok(_mapper.Map<CampModel>(oldCamp));
                 }
                 else
                 {
@@ -124,14 +127,14 @@ namespace MyCodeCamp.Controllers
         }
 
         // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        [HttpDelete("{moniker}")]
+        public async Task<IActionResult> Delete(string moniker)
         {
             try
             {
-                var oldCamp = _repo.GetCamp(id);
+                var oldCamp = _repo.GetCampByMoniker(moniker);
                 if (oldCamp == null)
-                    return NotFound($"Could not find a camp with an ID of {id}");
+                    return NotFound($"Could not find a camp with an moniker of {moniker}");
 
                 _repo.Delete(oldCamp);
 

@@ -13,9 +13,28 @@ namespace MyCodeCamp.Models
         public CampMappingProfile()
         {
             CreateMap<Camp, CampModel>()
-                .ForMember(c => c.StartDate, opt => opt.MapFrom(camp => camp.EventDate))
-                .ForMember(c => c.EndDate, opt => opt.ResolveUsing(camp => camp.EventDate.AddDays(camp.Length)))
-                .ForMember(c => c.Url, opt => opt.ResolveUsing<CampUrlResolver>());
+                .ForMember(c => c.StartDate,
+                    opt => opt.MapFrom(camp => camp.EventDate))
+                .ForMember(c => c.EndDate,
+                    opt => opt.ResolveUsing(camp => camp.EventDate.AddDays(camp.Length)))
+                .ForMember(c => c.Url,
+                    opt => opt.ResolveUsing<CampUrlResolver>())
+                .ReverseMap()
+                .ForMember(m => m.EventDate,
+                    opt => opt.MapFrom(model => model.StartDate))
+                .ForMember(m => m.Length,
+                    opt => opt.ResolveUsing(model => (model.EndDate - model.StartDate).Days))
+                .ForMember(m => m.Location,
+                    opt => opt.ResolveUsing(camp => new Location()
+                    {
+                        Address1 = camp.LocationAddress1,
+                        Address2 = camp.LocationAddress2,
+                        Address3 = camp.LocationAddress3,
+                        CityTown = camp.LocationCityTown,
+                        StateProvince = camp.LocationStateProvince,
+                        PostalCode = camp.LocationPostalCode,
+                        Country = camp.LocationCountry
+                    }));
         }
     }
 }
