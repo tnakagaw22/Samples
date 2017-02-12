@@ -8,12 +8,14 @@ using MyCodeCamp.Data.Entities;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
 using MyCodeCamp.Models;
+using MyCodeCamp.Filters;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MyCodeCamp.Controllers
 {
     [Route("api/[controller]")]
+    [ValidateModel]
     public class CampsController : BaseController
     {
         private ICampRepository _repo;
@@ -68,9 +70,6 @@ namespace MyCodeCamp.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
-                    return BadRequest(ModelState);
-
                 _logger.LogInformation("Creating a new Code Camp");
 
                 var camp = _mapper.Map<Camp>(model);
@@ -100,9 +99,6 @@ namespace MyCodeCamp.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
-                    return BadRequest(ModelState);
-
                 var oldCamp = _repo.GetCampByMoniker(moniker);
                 if (oldCamp == null)
                     return NotFound($"Could not find a camp with an moniker of {moniker}");
