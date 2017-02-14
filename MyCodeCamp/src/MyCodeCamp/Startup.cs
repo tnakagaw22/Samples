@@ -11,6 +11,7 @@ using MyCodeCamp.Data;
 using Newtonsoft.Json;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MyCodeCamp
 {
@@ -23,10 +24,14 @@ namespace MyCodeCamp
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
+
+            _env = env;
             _config = builder.Build();
         }
 
-        private IConfigurationRoot _config { get; }
+         private IHostingEnvironment _env;
+
+       private IConfigurationRoot _config { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -40,7 +45,14 @@ namespace MyCodeCamp
             services.AddAutoMapper();
 
             // Add framework services.
-            services.AddMvc()
+            services.AddMvc(opt =>
+            {
+                //if (!_env.IsProduction())
+                //{
+                //    opt.SslPort = 44388;
+                //}
+                opt.Filters.Add(new RequireHttpsAttribute());
+            })
                 .AddJsonOptions(opt =>
                 {
                     opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
