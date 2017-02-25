@@ -12,6 +12,9 @@ using Newtonsoft.Json;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using MyCodeCamp.Data.Entities;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace MyCodeCamp
 {
@@ -40,17 +43,63 @@ namespace MyCodeCamp
             services.AddDbContext<CampContext>(ServiceLifetime.Scoped);
             services.AddScoped<ICampRepository, CampRepository>();
             services.AddTransient<CampDbInitializer>();
+            services.AddTransient<CampIdentityInitializer>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddAutoMapper();
 
+            services.AddIdentity<CampUser, IdentityRole>()
+                .AddEntityFrameworkStores<CampContext>();
+
+            services.Configure<IdentityOptions>(config =>
+            {
+                config.Cookies.ApplicationCookie.Events =
+                new CookieAuthenticationEvents()
+                {
+                    OnRedirectToLogin = (ctx) =>
+                    {
+                        if (ctx.Request.Path.StartsWithSegments("/api") && ctx.Response.StatusCode == 200)
+                        {
+                            ctx.Response.StatusCode = 401;
+                        }
+                        return Task.CompletedTask;
+                    },
+                    OnRedirectToAccessDenied = (ctx) =>
+                    {
+                        if (ctx.Request.Path.StartsWithSegments("/api") && ctx.Response.StatusCode == 200)
+                        {
+                            ctx.Response.StatusCode = 403;
+                        }
+                        return Task.CompletedTask;
+                    }
+
+                };
+            });
+
+            services.AddCors(cfg =>
+            {
+                cfg.AddPolicy("Wildermuth", bldr =>
+                {
+                    bldr.AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .WithOrigins("http://wildermuth.com");
+                });
+
+                cfg.AddPolicy("AnyGet", bldr =>
+                {
+                    bldr.AllowAnyHeader()
+                        .WithMethods("GET")
+                        .AllowAnyOrigin();
+                });
+            });
+
             // Add framework services.
             services.AddMvc(opt =>
             {
-                //if (!_env.IsProduction())
-                //{
-                //    opt.SslPort = 44388;
-                //}
+                if (!_env.IsProduction())
+                {
+                    opt.SslPort = 44388;
+                }
                 opt.Filters.Add(new RequireHttpsAttribute());
             })
                 .AddJsonOptions(opt =>
@@ -63,10 +112,20 @@ namespace MyCodeCamp
         public void Configure(IApplicationBuilder app,
                               IHostingEnvironment env,
                               ILoggerFactory loggerFactory,
-                              CampDbInitializer seeder)
+                              CampDbInitializer seeder,
+                              CampIdentityInitializer identitySeeder)
         {
             loggerFactory.AddConsole(_config.GetSection("Logging"));
             loggerFactory.AddDebug();
+
+            //// This allows Cors globally
+            //app.UseCors(cfg =>
+            //{
+            //    cfg.AllowAnyHeader()
+            //       .AllowAnyMethod()
+            //       .WithOrigins("http://wildermuth.com");
+            //});
+            app.UseIdentity();
 
             app.UseMvc(config =>
             {
@@ -74,6 +133,7 @@ namespace MyCodeCamp
             });
 
             seeder.Seed().Wait();
+            identitySeeder.Seed().Wait();
         }
     }
 }

@@ -9,11 +9,15 @@ using Microsoft.Extensions.Logging;
 using AutoMapper;
 using MyCodeCamp.Models;
 using MyCodeCamp.Filters;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MyCodeCamp.Controllers
 {
+    [Authorize]
+    [EnableCors("AnyGET")]
     [Route("api/[controller]")]
     [ValidateModel]
     public class CampsController : BaseController
@@ -65,8 +69,9 @@ namespace MyCodeCamp.Controllers
         }
 
         // POST api/values
+        [EnableCors("Wildermuth")]
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]CampModel model)
+        public async Task  <IActionResult> Post([FromBody]CampModel model)
         {
             try
             {
