@@ -20,6 +20,7 @@ using System.Text;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
 using MyCodeCamp.Controllers;
+using MyCodeCamp.Models;
 
 namespace MyCodeCamp
 {
@@ -102,7 +103,8 @@ namespace MyCodeCamp
                     .HasApiVersion(new ApiVersion(1, 0))
                     .HasApiVersion(new ApiVersion(1, 1))
                     .HasApiVersion(new ApiVersion(2, 0))
-                    .action
+                    .Action(m => m.Post(default(string), default(int), default(TalkModel)))
+                        .MapToApiVersion(new ApiVersion(2, 0));
             });
 
             services.AddCors(cfg =>
