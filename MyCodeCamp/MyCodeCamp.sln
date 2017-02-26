@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots"
 	ProjectSection(SolutionItems) = preProject
 		Scroonshots\Send data through Body in Json.png = Scroonshots\Send data through Body in Json.png
 		Scroonshots\Send data through Body in UrlEncoded.png = Scroonshots\Send data through Body in UrlEncoded.png
+		C:\Users\tomohiro\Desktop\Send Token to Access API .png = C:\Users\tomohiro\Desktop\Send Token to Access API .png
 	EndProjectSection
 EndProject
 Global

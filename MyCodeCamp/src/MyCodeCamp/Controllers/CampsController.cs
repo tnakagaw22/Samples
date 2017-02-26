@@ -70,6 +70,7 @@ namespace MyCodeCamp.Controllers
 
         // POST api/values
         [EnableCors("Wildermuth")]
+        [Authorize(Policy = "SuperUsers")]
         [HttpPost]
         public async Task  <IActionResult> Post([FromBody]CampModel model)
         {
