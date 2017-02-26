@@ -17,6 +17,9 @@ using MyCodeCamp.Data.Entities;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
+using MyCodeCamp.Controllers;
 
 namespace MyCodeCamp
 {
@@ -76,6 +79,30 @@ namespace MyCodeCamp
                     }
 
                 };
+            });
+
+            // Default is query string
+            // API return 404 if calls are requrested without ?api-version=1.0
+            //services.AddApiVersioning();
+            services.AddApiVersioning(cfg =>
+            {
+                cfg.DefaultApiVersion = new ApiVersion(1, 1);
+                cfg.AssumeDefaultVersionWhenUnspecified = true;
+                cfg.ReportApiVersions = true;
+
+                //// force to read version from header. QueryString will be ignored
+                //// header's key is "ver" or ""X-MyCodeCamp-VersionTT"
+                //cfg.ApiVersionReader = new HeaderApiVersionReader("ver", "X-MyCodeCamp-Version");
+
+                var rdr = new QueryStringOrHeaderApiVersionReader("ver");
+                rdr.HeaderNames.Add("X-MyCodeCamp-Version");
+                cfg.ApiVersionReader = rdr;
+
+                cfg.Conventions.Controller<TalksController>()
+                    .HasApiVersion(new ApiVersion(1, 0))
+                    .HasApiVersion(new ApiVersion(1, 1))
+                    .HasApiVersion(new ApiVersion(2, 0))
+                    .action
             });
 
             services.AddCors(cfg =>
